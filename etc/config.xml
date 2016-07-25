@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <logger file="log/adruino.log" level="FINER" />    
+  <socket host="192.168.192.128" port="25125" />
+  <serial baud="9600" port="COM6">
+    <!--
+    TODO
+    Format (Data, Stop, Parity) -> bisher nur Default
+    -->
+    <matcher start="Sende" divider="=" />
+  </serial>
+</config>

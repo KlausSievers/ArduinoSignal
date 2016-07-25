@@ -1,0 +1,1 @@
+java -cp ArduinoSignal.jar adruinoSignal.server.ArduinoSignalServer
